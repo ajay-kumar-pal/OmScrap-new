@@ -1,0 +1,132 @@
+/*-------------------------------------- Start Query------------------------------ */
+.query_row {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 30px;
+    user-select: none;
+    /* background-color: #43db71; */
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #43db71);
+}
+.query_row .left_img,
+.query_row .right_img {
+    /* border: 1px solid black; */
+    /* background-color: red;  */
+    width: 15%;
+    margin: 30px;
+    /* padding: 0; */
+}
+.query_row .left_img img,
+.query_row .right_img img {
+    /* border: 1px solid black; */
+    /* background-color: red;  */
+    width: 100%;
+}
+.query_row .center_query {
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    border-radius: 0 60px 0 60px;
+    box-shadow: 0 0 3px rgb(92, 90, 90);
+    background-color: rgb(11, 88, 4);
+}
+.query_row .center_query .query_text,
+.query_phone {
+    /* border: 1px solid black; */
+    padding: 10px;
+    color: white;
+}
+.query_phone {
+    text-align: right;
+    /* border: 1px solid black; */
+    position: relative;
+    padding-right: 50px;
+}
+.query_row .center_query .query_text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.8s;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.query_row .center_query .query_phone h3 {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    padding-right: 20px;
+    transition: all 0.8s;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 0 rgb(255, 255, 255);
+    }
+    100% {
+        text-shadow: 0 0 10px rgb(248, 250, 248);
+        transform: scale(1.1);
+    }
+}
+.query_phone img {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    animation-name: dragging;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes dragging {
+    0% {
+        padding-left: 10%;
+        transition: transform 0.8s;
+    }
+    100% {
+        padding-left: 20%;
+        transform: scale(2);
+    }
+}
+@media screen and (max-width:480px) {
+    @keyframes glow {0% {}100% {}}
+    @keyframes dragging {0% {}100% {}}
+    
+    .query_row { 
+        position: relative;
+        padding: 10px 0;
+    }
+    #center_query{
+        border-radius: 5px;
+        text-align: center;
+        width: 300px;
+    }
+    .query_row .left_img{
+        width: 50px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .query_row .right_img{
+        width: 50px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    #query_h2,#query_h3{
+        font-size: 18px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .query_phone>img{
+        display: none;
+    }
+}
+/*-------------------------------------- End Query------------------------------ */

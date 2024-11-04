@@ -1,0 +1,73 @@
+
+
+/*-------------------------------------- Start Why OmScrap?------------------------------ */
+.why-we {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.heading-all {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #50934a;
+    font-size: 30px;
+    font-weight: 700;
+}
+.ww-box {
+    width: 150px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #e4e4e4;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+
+.ww-box:hover{
+    box-shadow: 0 0 10px #a09d9d;
+    border-radius: 10px;
+}
+.why-we .img-box {
+    height: 60%;
+}
+.why-we .img-footer {
+    height: 40%;
+    /* border: 1px solid black; */
+    
+}
+.why-we .img-footer > p{
+    color: #50934a;
+    /* border: 1px solid black; */
+    
+}
+.why-we img {
+    background-color: #fff;
+    border: 1px solid rgb(211, 197, 197);
+    padding: 15px;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: transform .8s;
+}
+.why-we img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px #71e961;
+}
+.why-we p {
+    width: 100%;
+    /* top: 0; */
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+/*-------------------------------------- End Why OmScrap?------------------------------ */

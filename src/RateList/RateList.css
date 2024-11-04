@@ -1,0 +1,239 @@
+/*-------------------------------------- Start Rate Card------------------------------ */
+#ratecard_section {
+    padding: 10px;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.text,
+.rateList_heading {
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: rgb(0, 84, 0);
+    color: #fff;
+}
+.sidebar ul {
+    padding: 10px;
+    list-style: none;
+    box-shadow: 0 0 10px rgb(102, 100, 100);
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+}
+.sidebar ul li {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    /* box-shadow: 0 0 3px rgb(102, 100, 100); */
+}
+.sidebar ul li:hover {
+    background-color: green;
+}
+.sidebar ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+.sidebar ul li:hover a {
+    color: #fff;
+}
+.rightSide_section {
+    background-color: #fff;
+    width: 80%;
+    margin-left: 10px;
+}
+.category_heading{
+    /* border: 1px solid black; */
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding:15px;
+    box-shadow: 0 0 5px rgb(102, 100, 100);
+
+}
+.scrapList_container {
+    padding: 15px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.scrapItem_box {
+    /* border: 1px solid black;     */
+    box-shadow: 0 0 10px rgb(204, 216, 243);
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 240px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin: 20px auto;
+}
+.scrapItem_box .itemImg {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 1s;
+    /* background-color: aqua; */
+
+}
+.scrapItem_box .itemImg img {
+    transition: transform 1s;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.scrapItem_box .itemName {
+    font-size: 22px;
+    font-weight: 600;
+    color: green;
+    margin: 15px auto;
+    text-align: center;
+}
+.scrapItem_box .itemPrice .oldPrice {
+    text-align: center;
+    text-decoration: line-through solid rgb(54, 54, 54);
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(36, 31, 31);
+}
+.scrapItem_box .itemPrice .newPrice {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    /* border: 1px solid black; */
+    padding: 0;
+    margin: 0;
+    display: inline;
+
+}
+.scrapItem_box .itemPrice .newPrice .amt {
+    color: green;
+    font-size: 15px;
+}
+.scrapItem_box:hover {
+    box-shadow: 0 0 10px rgba(90, 129, 221, 0.8);
+}
+.scrapItem_box:hover .itemImg img {
+    transform: scale(1.05);
+    z-index: -2;
+}
+.desc_box {
+    text-align: center;   
+    margin-top: 10px;
+}
+.desc_box >p{
+    font-size: 12px;  
+    text-transform: capitalize;  
+}
+@media screen and (max-width:480px) {
+    #ratecard_section {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+    .sidebar {
+        color: #fff;
+        width: 100%;
+        margin: 0;
+        position: -webkit-sticky;
+        
+        /* position: sticky;
+        top: 100px; */
+        /* height: 300px; */
+    }
+    
+    .sidebar .text{
+        font-size: 15px;
+        text-align: left;
+        position: relative;
+    }
+    .sidebar .text i{
+        position: absolute;
+        right: 10px;
+        font-size: 20px;
+        text-align: center;
+        color: #eee;
+    }
+    #xmark,#burger{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+    #sidebarmenu{
+        display: block;
+       
+        /* position: sticky;
+        top: 0;
+        background: red; */
+    }
+    
+    .sidebar #sidebarmenu >ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    } 
+    #xmark{
+        display: none;
+    }
+    
+    .sidebar>#sidebarmenu ul li{
+        /* border : 1px solid black; */
+        padding: 4px;
+        margin: 2px;
+        box-sizing: border-box;
+        border : 1px solid black;
+
+    }
+    .sidebar>#sidebarmenu ul li a {
+        font-size: 14px;
+        
+    }
+
+    .rightSide_section {
+        width: 100%;
+        margin: 0px;
+        /* border: 1px solid black; */
+    }
+    #rateList_heading{
+        display: none;
+    }
+    .category_heading{
+        font-size: 15px;
+        background-color: green;
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+        width: 100%;
+        letter-spacing: 1px;
+        margin: 0 auto auto auto;
+    }
+    
+}
+@media screen and (min-width:480px){
+    #xmark,#burger{
+        display: none;
+    }
+}
+/*-------------------------------------- End Rate Card------------------------------ */
