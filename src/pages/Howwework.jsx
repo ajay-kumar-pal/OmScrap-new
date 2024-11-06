@@ -27,8 +27,9 @@ function slideShow(){
         hwwdot[i].className = hwwdot[i].className.replace(" hwwActive", "");
 
     }
-    hoverBox[count-1].style.display="block";
-    hwwdot[count-1].className += " hwwActive";
+    // ye do lineyo ki vajhe se ho rhi thi problem but dekhna hoga ki galat kya.
+    // hoverBox[count-1].style.display="block";
+    // hwwdot[count-1].className += " hwwActive";
 
     setTimeout(slideShow, 2000);
 }

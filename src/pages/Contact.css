@@ -1,23 +1,19 @@
-/*-------------------------------------- Start Contact Code------------------------------ */
-#contactus{
-    /* background-color: rgb(242, 245, 248); */
-    font-family: 'Lexend Deca',sans-serif;
+#contactus {
+    font-family: 'Lexend Deca', sans-serif;
     position: relative;
-    /* height: 100vh; */
-/* background-color: white; */
 
 }
 
-.contactusimg{
+.contactusimg {
     position: relative;
-
-    /* display: flex; */
 }
-.contactusimg>img{
+
+.contactusimg>img {
     width: 100%;
     height: 400px;
 }
-.contactusimg>h1{
+
+.contactusimg>h1 {
     position: absolute;
     left: 0;
     top: 0;
@@ -27,21 +23,22 @@
     width: 100%;
     padding-left: 20px;
 }
-.contactperson-wrapper{
-    /* background-color: red; */
-    /* height: 100px; */
+
+.contactperson-wrapper {
     align-items: center;
 
 }
-.contactperson{
+
+.contactperson {
     width: 60%;
     margin: 0 auto;
     height: 150px;
     padding: 10px;
     position: relative;
-    
+
 }
-.left-contactperson{
+
+.left-contactperson {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -53,7 +50,8 @@
     box-shadow: 0 0 50px;
 
 }
-.right-contactperson{
+
+.right-contactperson {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -63,67 +61,74 @@
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 0 50px;
-    /* border: none; */
 
 }
-.left-contactperson>div>i,.right-contactperson>div>i{
-    /* border: 1px solid black; */
+
+.left-contactperson>div>i,
+.right-contactperson>div>i {
     font-size: 50px;
     color: green;
     margin-bottom: 20px;
 }
-.left-contactperson>div>h3,.right-contactperson>div>h3{
+
+.left-contactperson>div>h3,
+.right-contactperson>div>h3 {
     text-transform: capitalize;
     color: #2e475d;
     margin-bottom: 20px;
 
 }
-.left-contactperson>div>phone,.right-contactperson>div>phone{
+
+.left-contactperson>div>phone,
+.right-contactperson>div>phone {
     font-weight: 500;
     margin-bottom: 20px;
     font-size: 25px;
 }
-.contactus-wrapper{
-    /* background-color: red; */
+
+.contactus-wrapper {
     margin: 30px 0;
 }
-.contactus-location-container{
+
+.contactus-location-container {
     display: flex;
     width: 70%;
     margin: 0 auto;
-    /* background-color: rgb(233, 235, 247); */
     text-align: center;
     box-sizing: border-box;
     box-shadow: 0 0 50px;
 }
 
-.contactus-location>iframe{
+.contactus-location>iframe {
     width: 700px;
     height: 500px;
 }
-.contactus-address{
+
+.contactus-address {
     padding: 30px 10px;
     height: 400px;
     width: 100%;
 
 }
-.contactus-address>h3{
+
+.contactus-address>h3 {
     text-align: left;
     margin-bottom: 20px;
     font-size: 25px;
 }
-.contactus-address>p{
+
+.contactus-address>p {
     font-size: 20px;
     text-align: left;
 }
 
 @media screen and (max-width:480px) {
-    
-    .contactusimg>img{
+
+    .contactusimg>img {
         width: 100%;
-        /* height: 500px; */
     }
-    .contactusimg>h1{
+
+    .contactusimg>h1 {
         position: absolute;
         left: 0;
         top: 0;
@@ -133,18 +138,21 @@
         width: 100%;
         padding: 20px;
     }
-    .contactperson-wrapper{
+
+    .contactperson-wrapper {
         align-items: center;
     }
-    .contactperson{
+
+    .contactperson {
         width: 80%;
         margin: 0 auto;
         height: 150px;
         padding: 10px;
         position: relative;
-        
+
     }
-    .contactus-left-right{
+
+    .contactus-left-right {
         background-color: white;
         width: 150px;
         padding: 20px;
@@ -152,69 +160,78 @@
         text-align: center;
         box-shadow: 0 0 50px;
     }
-    .left-contactperson{
+
+    .left-contactperson {
         position: absolute;
         left: 0;
         bottom: 0;
     }
-    .right-contactperson{
+
+    .right-contactperson {
         position: absolute;
         right: 0;
         bottom: 0;
-    
+
     }
-    .left-contactperson>div>i,.right-contactperson>div>i{
-        /* border: 1px solid black; */
+
+    .left-contactperson>div>i,
+    .right-contactperson>div>i {
         font-size: 40px;
         color: green;
         margin-bottom: 20px;
     }
-    .left-contactperson>div>h3,.right-contactperson>div>h3{
+
+    .left-contactperson>div>h3,
+    .right-contactperson>div>h3 {
         text-transform: capitalize;
         color: #2e475d;
         margin-bottom: 20px;
-    
+
     }
-    .left-contactperson>div>a,.right-contactperson>div>a{
+
+    .left-contactperson>div>a,
+    .right-contactperson>div>a {
         margin-bottom: 20px;
         font-size: 16px;
 
     }
-    .contactus-wrapper{
+
+    .contactus-wrapper {
         margin: 30px 0;
     }
-    .contactus-location-container{
+
+    .contactus-location-container {
         display: flex;
         width: 90%;
         margin: 0 auto;
-        /* background-color: rgb(233, 235, 247); */
         text-align: center;
         box-sizing: border-box;
-        /* border-radius: 10px; */
         box-shadow: 0 0 50px;
         height: 300px;
 
-    
+
     }
-        
-    .contactus-location>iframe{
+
+    .contactus-location>iframe {
         min-width: 220px;
         width: 70%;
         height: 300px;
     }
-    .contactus-address{
+
+    .contactus-address {
         padding: 10px;
         width: 100%;
 
     }
-    .contactus-address>h3{
+
+    .contactus-address>h3 {
         text-align: left;
         margin-bottom: 20px;
         font-size: 18px;
     }
-    .contactus-address>p{
+
+    .contactus-address>p {
         font-size: 16px;
         text-align: left;
     }
 }
-/*-------------------------------------- End Contact Code------------------------------ */

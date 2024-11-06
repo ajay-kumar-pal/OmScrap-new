@@ -1,8 +1,8 @@
-/*-------------------------------------- Start How we works------------------------------ */
 .how-we-works {
     padding: 50px;
-    background-image: linear-gradient(to right, #08bb3d, rgba(255,0,0,0));
+    background-image: linear-gradient(to right, #08bb3d, rgba(255, 0, 0, 0));
 }
+
 .hover-box {
     border-radius: 5px;
     transition: all 0.7s ease-in-out;
@@ -13,24 +13,29 @@
     box-shadow: 0 0 5px #474b48;
     cursor: pointer;
 }
+
 .hover-box:hover .chngImgRadius {
     border-radius: 50px 0 50px 0;
 }
+
 .hover-box:hover {
     background-color: #017d26;
     border-radius: 50px 0 50px 0;
 }
+
 .heading,
 .row p {
     margin-bottom: 20px;
     text-align: center;
     color: #000000;
 }
+
 .how-we-works h2 {
     text-align: center;
     font-size: 30px;
     font-weight: 800;
 }
+
 .hww-box {
     display: flex;
     flex-direction: column;
@@ -40,54 +45,64 @@
     padding: 20px 0 20px 0;
     box-sizing: border-box;
 }
+
 .hww-box img {
     border-radius: 5px;
     margin-bottom: 20px;
     object-fit: contain;
     transition: all 0.7s ease-in-out;
 }
+
 .hww-box h4 {
     padding-bottom: 5px;
     color: #ffffff;
 }
+
 .hww-box p {
     padding-bottom: 0;
     color: black;
     font-weight: 500;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (min-width: 480px) {
     .how-we-works {
-        padding: 25px ;
+        padding: 25px;
     }
+
     .hww-box>img {
         border-radius: 50px 0 50px 0;
+        
     }
+
     .mobile-box {
         background-color: #017d26;
         border-radius: 50px 0 50px 0;
     }
+
     .how-we-works h2 {
         font-size: 20px;
         font-weight: 700;
     }
+
     .mobile-box {
         width: 250px;
         height: 360px;
         padding: 0;
     }
+
     .chngImgRadius {
         width: 200px;
         height: 200px;
         margin-top: 0;
     }
-    .hwwdots{
+
+    .hwwdots {
         display: block;
         text-align: center;
         margin-top: 10px;
-        /* background-color: red; */
     }
-    .hwwdot{
+
+    .hwwdot {
         height: 15px;
         width: 15px;
         background-color: green;
@@ -97,9 +112,7 @@
         transition: background-color 0.6s ease;
     }
 
-    .hwwActive{
+    .hwwActive {
         background-color: white;
-        /* border:1px solid black; */
     }
 }
-/*-------------------------------------- End How we works------------------------------ */

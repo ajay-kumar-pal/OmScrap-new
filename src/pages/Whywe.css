@@ -1,6 +1,4 @@
 
-
-/*-------------------------------------- Start Why OmScrap?------------------------------ */
 .why-we {
     padding-bottom: 50px;
     padding-top: 50px;
@@ -39,21 +37,16 @@
 }
 .why-we .img-footer {
     height: 40%;
-    /* border: 1px solid black; */
     
 }
 .why-we .img-footer > p{
     color: #50934a;
-    /* border: 1px solid black; */
     
 }
 .why-we img {
     background-color: #fff;
     border: 1px solid rgb(211, 197, 197);
     padding: 15px;
-    /* position: absolute;
-    top: 0;
-    left: 0; */
     width: 100%;
     border-radius: 50%;
     margin-bottom: 10px;
@@ -65,9 +58,7 @@
 }
 .why-we p {
     width: 100%;
-    /* top: 0; */
     text-align: center;
     margin-bottom: 10px;
     font-weight: 500;
 }
-/*-------------------------------------- End Why OmScrap?------------------------------ */

@@ -1,4 +1,4 @@
-/*-------------------------------------- Start Rate Card------------------------------ */
+
 #ratecard_section {
     padding: 10px;
     display: flex;
@@ -36,7 +36,6 @@
     text-transform: capitalize;
     cursor: pointer;
     transition: all 0.5s linear;
-    /* box-shadow: 0 0 3px rgb(102, 100, 100); */
 }
 .sidebar ul li:hover {
     background-color: green;
@@ -55,7 +54,6 @@
     margin-left: 10px;
 }
 .category_heading{
-    /* border: 1px solid black; */
     text-transform: capitalize;
     text-align: center;
     font-size: 25px;
@@ -72,7 +70,6 @@
     flex-wrap: wrap;
 }
 .scrapItem_box {
-    /* border: 1px solid black;     */
     box-shadow: 0 0 10px rgb(204, 216, 243);
     border-radius: 5px;
     box-sizing: border-box;
@@ -90,7 +87,6 @@
     border-radius: 20px;
     overflow: hidden;
     transition: transform 1s;
-    /* background-color: aqua; */
 
 }
 .scrapItem_box .itemImg img {
@@ -118,7 +114,6 @@
     font-size: 16px;
     font-weight: 600;
     color: rgb(0, 0, 0);
-    /* border: 1px solid black; */
     padding: 0;
     margin: 0;
     display: inline;
@@ -158,9 +153,6 @@
         margin: 0;
         position: -webkit-sticky;
         
-        /* position: sticky;
-        top: 100px; */
-        /* height: 300px; */
     }
     
     .sidebar .text{
@@ -182,10 +174,6 @@
     }
     #sidebarmenu{
         display: block;
-       
-        /* position: sticky;
-        top: 0;
-        background: red; */
     }
     
     .sidebar #sidebarmenu >ul{
@@ -199,7 +187,6 @@
     }
     
     .sidebar>#sidebarmenu ul li{
-        /* border : 1px solid black; */
         padding: 4px;
         margin: 2px;
         box-sizing: border-box;
@@ -214,7 +201,6 @@
     .rightSide_section {
         width: 100%;
         margin: 0px;
-        /* border: 1px solid black; */
     }
     #rateList_heading{
         display: none;
@@ -236,4 +222,3 @@
         display: none;
     }
 }
-/*-------------------------------------- End Rate Card------------------------------ */
