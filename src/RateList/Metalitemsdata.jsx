@@ -24,7 +24,7 @@ const Metalitemsdata = [
     {
         dimg:"../itemimages/metalitems/copper_wire.jpg",
         dname:"copper wire",
-        dprice:"180-300",
+        dprice:"80-300",
         dunit:"per/kg",
         ddese:"depend on items"
     },

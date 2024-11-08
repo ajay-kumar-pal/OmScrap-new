@@ -3,7 +3,7 @@ const Plasticitemsdata = [
     {
         dimg:"../itemimages/plasticitems/mixplastic.jpg",
         dname:"mix plastic",
-        dprice:"17",
+        dprice:"10",
         dunit:"per/kg",
         ddese:"depend on items"
     },

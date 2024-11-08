@@ -3,14 +3,14 @@ const Ironitemsdata = [
     {
         dimg:"../itemimages/ironitems/tin.jpg",
         dname:"tin",
-        dprice:"14",
+        dprice:"8",
         dunit:"per/kg",
         ddese:"depend on items"
     },
     {
         dimg:"../itemimages/ironitems/loha.jpg",
         dname:"loha",
-        dprice:"38",
+        dprice:"28",
         dunit:"per/kg",
         ddese:"depend on items"
     },
