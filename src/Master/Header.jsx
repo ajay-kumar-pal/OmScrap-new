@@ -43,7 +43,7 @@ const Header =() =>{
                 <nav id="navhead" onClick={hidemenu}>
                     <ul id="navbar">
                         <li><Link className="active" to="/">Home</Link></li>
-                        <li><Link to="./ratecard/ironitems">Rate List</Link></li>
+                        <li><Link to="./ratecard">Rate List</Link></li>
                         <li><Link to="./pickuprequest">Pickup Request</Link></li>
                         <li><Link to="./about">About Us</Link></li>
                         <li><Link to="./contact">Contact Us</Link></li>

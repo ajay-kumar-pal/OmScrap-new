@@ -1,5 +1,8 @@
 import './RateList.css';
 import { Link, Outlet } from 'react-router-dom';
+import './RateList.css';
+import Scrapitembox from './Scrapitembox';
+import  Rateitemsdata, {heading}  from "./Rateitemsdata";
 
 // function opensidebarmenu(){
 //     let sidebarmenu = document.getElementById("sidebarmenu");
@@ -26,30 +29,13 @@ const Ratecard = () => {
     return(
         <>
             <section  id="ratecard_section">
-                <nav class="sidebar">
-                    <div class="text">
-                        Rate list category 
-                        {/* <i id="xmark" onClick={closesidebarmenu} class="fa-solid fa-circle-xmark"></i>
-                        <i id="burger" onClick={opensidebarmenu} class="fa-solid fa-circle-chevron-down"></i> */}
-                    </div>
-
-                    <div id="sidebarmenu">
-                        <ul >
-                            <li><Link to="ironitems">iron items</Link></li>
-                            <li><Link to="plasticitem">plastic items</Link></li>
-                            <li><Link to="metalitem">metal items</Link></li>
-                            <li><Link to="electronicitem">electronic items</Link></li>
-                            <li><Link to="glassitem">glass items</Link></li>
-                            <li><Link to="wooditem">wood items</Link></li>
-                            <li><Link to="paperitem">paper items</Link></li>
-                            <li><Link to="vehicleitem">vehicle items</Link></li>
-                        </ul>
-                    </div>
-                </nav>
                 <div class="rightSide_section">
                 <div id="rateList_heading" class="rateList_heading">
                     rate list
                 </div>
+                    <div>
+                        <Link to="ironitems">iron items</Link>
+                    </div>
                         <Outlet/>
                 </div>
             </section>

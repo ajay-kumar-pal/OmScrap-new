@@ -1,5 +1,5 @@
 
-const Ironitemsdata = [
+const Rateitemsdata = [
     {
         dimg:"../itemimages/electronicitems/washingmachine.png",
         dname:"washing machine",
@@ -173,8 +173,8 @@ const Ironitemsdata = [
 ];
 
 
-const heading = "iron items";
+const heading = "Rateitemsdata items???****";
 
-export default Ironitemsdata;
+export default Rateitemsdata;
 
 export {heading};

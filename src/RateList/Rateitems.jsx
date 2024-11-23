@@ -1,8 +1,8 @@
 import './RateList.css';
 import Scrapitembox from './Scrapitembox';
-import  Paperitemsdata, {heading}  from "./Paperitemsdata";
+import  Rateitemsdata, {heading}  from "./Rateitemsdata";
 
-const Paperitems = () => {
+const Rateitems = () => {
     return(
         <>
             <div class="category_heading">
@@ -12,7 +12,7 @@ const Paperitems = () => {
             <div class="scrapList_container">
                 {/* <!-- ******start scrap item box---------------***** --> */}
                     
-                    {Paperitemsdata.map(function dlist(val){
+                    {Rateitemsdata.map(function dlist(val){
                         
                         return(
                             <Scrapitembox
@@ -31,4 +31,4 @@ const Paperitems = () => {
     );
 };
 
-export default Paperitems;
+export default Rateitems;
